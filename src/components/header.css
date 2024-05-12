@@ -1,0 +1,85 @@
+h1 {
+  font-size: 300px !important;
+  line-height: 350px;
+}
+
+hr {
+  height: 2px !important;
+  background-color: #2f2f2f;
+}
+
+.active {
+  border-bottom: 2px solid #2f2f2f;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #2f2f2f;
+}
+
+.dark-mode .nav-item:hover {
+  border-color: white;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 32px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/img/sun.png"), url("../assets/img/moon.png");
+  background-repeat: no-repeat no-repeat;
+  background-size: 20px, 20px;
+  background-position: calc(100% - 7px) center, calc(7px) center;
+  background-color: #2f2f2f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  background-color: black;
+  -webkit-transform: translateX(32px);
+  -ms-transform: translateX(32px);
+  transform: translateX(32px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
