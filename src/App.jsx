@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Nav from "./components/Nav";
 import Blog from "./components/Blog/Blog";
+import Footer from "./components/Footer";
 import "./index.css";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <div className={`${darkMode ? "dark-mode" : "light-mode"} px-44`}>
       <Nav toggleDarkMode={toggleDarkMode} />
       <Blog></Blog>
+      <Footer></Footer>
     </div>
   );
 };
