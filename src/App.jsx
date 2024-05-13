@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Nav from "./components/Nav";
-import Blog from "./components/Blog";
+import Blog from "./components/Blog/Blog";
 import "./index.css";
 
 const App = () => {

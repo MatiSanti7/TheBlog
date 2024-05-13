@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import iconWrap from "../assets/img/Icon-wrap.svg";
+import iconWrap from "../../assets/img/Icon-wrap.svg";
 
 const PrincipalPost = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
@@ -10,7 +10,7 @@ const PrincipalPost = ({ post }) => {
       <small className="text-base font-semibold text-[#6941C6]">
         {author} • {date}
       </small>
-      <a href="#" className="flex items-center justify-between">
+      <a href="#" className="flex justify-between">
         <h3 className="py-2 text-3xl font-semibold">{title}</h3>
         <img src={iconWrap} alt="" className="text-[#2f2f2f] w-10 icon-wrap" />
       </a>
