@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-import "./header.css";
+import "./styles/header.css";
 
 const Nav = ({ toggleDarkMode }) => {
   return (
-    <header className="w-10/12 m-auto">
+    <header>
       <nav className="flex items-center justify-between pt-7 pb-7">
         <strong className="text-3xl">Matias Santillán</strong>
         <ul className="flex gap-10 text-xl">

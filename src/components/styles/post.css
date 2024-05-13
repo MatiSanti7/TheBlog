@@ -1,0 +1,40 @@
+.cat {
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 2px 20px;
+  border-radius: 20px;
+}
+
+.color-1 {
+  color: rgba(255, 87, 51, 1);
+  background-color: rgba(255, 87, 51, 0.1);
+}
+
+.color-2 {
+  color: rgba(199, 0, 57, 1);
+  background-color: rgba(199, 0, 57, 0.1);
+}
+
+.color-3 {
+  color: rgba(88, 24, 69, 1);
+  background-color: rgba(88, 24, 69, 0.1);
+}
+
+.color-4 {
+  color: rgba(0, 168, 150, 1);
+  background-color: rgba(0, 168, 150, 0.1);
+}
+
+.color-5 {
+  color: rgba(255, 111, 97, 1);
+  background-color: rgba(255, 111, 97, 0.1);
+}
+
+.color-6 {
+  color: rgba(106, 5, 114, 1);
+  background-color: rgba(106, 5, 114, 0.1);
+}
+
+.color-7 {
+  color: rgba(4, 93, 86, 1);
+  background-color: rgba(4, 93, 86, 0.1);
+}
