@@ -1,0 +1,82 @@
+[
+  {
+    "image": "src/assets/img/post/image-0.png",
+    "title": "UX review presentations",
+    "author": "Olivia Rhye",
+    "date": "1 Jan 2023",
+    "description": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    "categories": ["Design", "Research", "Presentation"]
+  },
+  {
+    "image": "src/assets/img/post/image-1.png",
+    "title": "Migrating to Linear 101",
+    "author": "Phoenix Baker",
+    "date": "1 Jan 2023",
+    "description": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
+    "categories": ["Design", "Research"]
+  },
+  {
+    "image": "src/assets/img/post/image-2.png",
+    "title": "Building your API Stack",
+    "author": "Lana Steiner",
+    "date": "1 Jan 2023",
+    "description": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
+    "categories": ["Design", "Research"]
+  },
+  {
+    "image": "src/assets/img/post/image-3.png",
+    "title": "Grid system for better Design User Interface",
+    "author": "Olivia Rhye",
+    "date": "1 Jan 2023",
+    "description": "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
+    "categories": ["Design", "Interface"]
+  },
+  {
+    "image": "src/assets/img/post/image-4.png",
+    "title": "Bill Walsh leadership lessons",
+    "author": "Alec Whitten",
+    "date": "1 Jan 2023",
+    "description": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+    "categories": ["Leadership", "Management"]
+  },
+  {
+    "image": "src/assets/img/post/image-5.png",
+    "title": "PM mental models",
+    "author": "Demi Willkinson",
+    "date": "1 Jan 2023",
+    "description": "Mental models are simple expressions of complex processes or relationships.",
+    "categories": ["Product", "Research", "Frameworks"]
+  },
+  {
+    "image": "src/assets/img/post/image-6.png",
+    "title": "What is Wireframing?",
+    "author": "Candice Wu",
+    "date": "1 Jan 2023",
+    "description": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+    "categories": ["Design", "Research"]
+  },
+  {
+    "image": "src/assets/img/post/image-7.png",
+    "title": "How collaboration makes is better designers",
+    "author": "Natali Craig",
+    "date": "1 Jan 2023",
+    "description": "Collaboration can make teams stronger, and our invidual designs better.",
+    "categories": ["Design", "Research"]
+  },
+  {
+    "image": "src/assets/img/post/image-8.png",
+    "title": "Our top 10 Javascript frameworks to use",
+    "author": "Drew Cano",
+    "date": "1 Jan 2023",
+    "description": "JavaScript frameworks make development easy with extensive features and functionalities.",
+    "categories": ["Software Development", "Tools", "SaaS"]
+  },
+  {
+    "image": "src/assets/img/post/image-9.png",
+    "title": "Podcast: Creating a better CX Community",
+    "author": "Orlando Diggs",
+    "date": "1 Jan 2023",
+    "description": "Starting a community doesn’t need to be complicated, but how do you get started?",
+    "categories": ["Podcast", "Customer Success"]
+  }
+]
