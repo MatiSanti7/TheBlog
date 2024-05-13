@@ -89,276 +89,274 @@
     "description": "Starting a community doesn’t need to be complicated, but how do you get started?",
     "categories": ["Podcast", "Customer Success"]
   },
-  [
-    {
-      "id": 10,
-      "image": "src/assets/img/post/image-10.png",
-      "title": "The Art of Typography in Web Design",
-      "author": "Evan Montgomery",
-      "date": "1 Jan 2023",
-      "description": "Typography plays a crucial role in web design, influencing readability, accessibility, and overall aesthetics.",
-      "categories": ["Design", "Web", "Typography"]
-    },
-    {
-      "id": 11,
-      "image": "src/assets/img/post/image-11.png",
-      "title": "The Power of A/B Testing in UX Design",
-      "author": "Isabella Nguyen",
-      "date": "1 Jan 2023",
-      "description": "A/B testing allows UX designers to make data-driven decisions and optimize user experiences.",
-      "categories": ["Design", "UX", "Testing"]
-    },
-    {
-      "id": 12,
-      "image": "src/assets/img/post/image-12.png",
-      "title": "Mastering Color Theory in Graphic Design",
-      "author": "Tristan Patel",
-      "date": "1 Jan 2023",
-      "description": "Understanding color theory is essential for creating visually appealing and harmonious designs.",
-      "categories": ["Design", "Graphic Design", "Color Theory"]
-    },
-    {
-      "id": 13,
-      "image": "src/assets/img/post/image-13.png",
-      "title": "Responsive Design Best Practices",
-      "author": "Harper Dixon",
-      "date": "1 Jan 2023",
-      "description": "Learn how to create websites that adapt seamlessly to different devices and screen sizes.",
-      "categories": ["Design", "Web", "Responsive Design"]
-    },
-    {
-      "id": 14,
-      "image": "src/assets/img/post/image-14.png",
-      "title": "The Evolution of User-Centered Design",
-      "author": "Riley Carter",
-      "date": "1 Jan 2023",
-      "description": "Explore the history and principles behind user-centered design and its impact on modern products.",
-      "categories": ["Design", "UX", "User-Centered Design"]
-    },
-    {
-      "id": 15,
-      "image": "src/assets/img/post/image-15.png",
-      "title": "Harnessing the Psychology of Color in Marketing",
-      "author": "Avery Fisher",
-      "date": "1 Jan 2023",
-      "description": "Discover how different colors can evoke emotions and influence consumer behavior in marketing.",
-      "categories": ["Marketing", "Psychology", "Color"]
-    },
-    {
-      "id": 16,
-      "image": "src/assets/img/post/image-16.png",
-      "title": "Effective Time Management Techniques for Developers",
-      "author": "Hayden Ellis",
-      "date": "1 Jan 2023",
-      "description": "Time management skills are crucial for developers to maximize productivity and meet project deadlines.",
-      "categories": ["Development", "Productivity", "Time Management"]
-    },
-    {
-      "id": 17,
-      "image": "src/assets/img/post/image-17.png",
-      "title": "The Rise of No-Code Development Platforms",
-      "author": "Rowan Griffin",
-      "date": "1 Jan 2023",
-      "description": "No-code development platforms empower individuals and businesses to create software applications without writing code.",
-      "categories": ["Development", "No-Code", "Platforms"]
-    },
-    {
-      "id": 18,
-      "image": "src/assets/img/post/image-18.png",
-      "title": "Inclusive Design: Designing for Everyone",
-      "author": "Sawyer Holmes",
-      "date": "1 Jan 2023",
-      "description": "Learn how to create products and experiences that are accessible and inclusive for all users.",
-      "categories": ["Design", "Inclusive Design", "Accessibility"]
-    },
-    {
-      "id": 19,
-      "image": "src/assets/img/post/image-19.png",
-      "title": "The Importance of Information Architecture in UX",
-      "author": "Kai Jordan",
-      "date": "1 Jan 2023",
-      "description": "Information architecture lays the foundation for intuitive and user-friendly digital experiences.",
-      "categories": ["Design", "UX", "Information Architecture"]
-    },
-    {
-      "id": 20,
-      "image": "src/assets/img/post/image-20.png",
-      "title": "The Future of Artificial Intelligence in Design",
-      "author": "Quinn Sullivan",
-      "date": "1 Jan 2023",
-      "description": "Explore how AI is revolutionizing the design process and shaping the future of creative industries.",
-      "categories": ["Design", "AI", "Future Trends"]
-    },
-    {
-      "id": 21,
-      "image": "src/assets/img/post/image-21.png",
-      "title": "Effective Communication Strategies for Remote Teams",
-      "author": "Peyton Garcia",
-      "date": "1 Jan 2023",
-      "description": "Communication is key to successful collaboration in remote teams. Learn best practices for staying connected.",
-      "categories": ["Remote Work", "Communication", "Teamwork"]
-    },
-    {
-      "id": 22,
-      "image": "src/assets/img/post/image-22.png",
-      "title": "The Role of Emotion in User Experience Design",
-      "author": "Nova Ramirez",
-      "date": "1 Jan 2023",
-      "description": "Emotion plays a significant role in shaping user perceptions and behaviors in UX design.",
-      "categories": ["Design", "UX", "Emotion"]
-    },
-    {
-      "id": 23,
-      "image": "src/assets/img/post/image-23.png",
-      "title": "Building Scalable Infrastructure for Web Applications",
-      "author": "Elliot Watts",
-      "date": "1 Jan 2023",
-      "description": "Scalable infrastructure is essential for supporting the growth and performance of web applications.",
-      "categories": ["Development", "Infrastructure", "Web Applications"]
-    },
-    {
-      "id": 24,
-      "image": "src/assets/img/post/image-24.png",
-      "title": "The Art of Storytelling in User Experience",
-      "author": "Aria Patel",
-      "date": "1 Jan 2023",
-      "description": "Storytelling can enhance user engagement and create memorable experiences in UX design.",
-      "categories": ["Design", "UX", "Storytelling"]
-    },
-    {
-      "id": 25,
-      "image": "src/assets/img/post/image-25.png",
-      "title": "The Intersection of Design and Data Science",
-      "author": "Micah West",
-      "date": "1 Jan 2023",
-      "description": "Explore how design principles and data science techniques converge to drive innovation and insights.",
-      "categories": ["Design", "Data Science", "Innovation"]
-    },
-    {
-      "id": 26,
-      "image": "src/assets/img/post/image-26.png",
-      "title": "The Impact of Microinteractions on User Engagement",
-      "author": "Elena Martinez",
-      "date": "1 Jan 2023",
-      "description": "Microinteractions can delight users and enhance the overall user experience by providing feedback and guidance.",
-      "categories": ["Design", "UX", "Microinteractions"]
-    },
-    {
-      "id": 27,
-      "image": "src/assets/img/post/image-27.png",
-      "title": "The Role of Gamification in Product Design",
-      "author": "Carter Price",
-      "date": "1 Jan 2023",
-      "description": "Gamification can motivate users, increase engagement, and drive desired behaviors in product design.",
-      "categories": ["Design", "Gamification", "Product Design"]
-    },
-    {
-      "id": 28,
-      "image": "src/assets/img/post/image-28.png",
-      "title": "Designing for Voice User Interfaces",
-      "author": "Skyler Griffin",
-      "date": "1 Jan 2023",
-      "description": "Voice user interfaces present unique design challenges and opportunities for creating intuitive experiences.",
-      "categories": ["Design", "Voice UI", "User Interfaces"]
-    },
-    {
-      "id": 29,
-      "image": "src/assets/img/post/image-29.png",
-      "title": "The Ethics of AI in Design",
-      "author": "Harper Wells",
-      "date": "1 Jan 2023",
-      "description": "Designers must consider ethical implications when integrating AI technologies into products and services.",
-      "categories": ["Design", "AI", "Ethics"]
-    },
-    {
-      "id": 30,
-      "image": "src/assets/img/post/image-30.png",
-      "title": "Designing Accessible Mobile Experiences",
-      "author": "Remy Thompson",
-      "date": "1 Jan 2023",
-      "description": "Creating mobile experiences that are accessible to users with disabilities is essential for inclusive design.",
-      "categories": ["Design", "Accessibility", "Mobile"]
-    },
-    {
-      "id": 31,
-      "image": "src/assets/img/post/image-31.png",
-      "title": "The Role of Prototyping in the Design Process",
-      "author": "Logan Palmer",
-      "date": "1 Jan 2023",
-      "description": "Prototyping allows designers to test ideas, gather feedback, and iterate rapidly during the design process.",
-      "categories": ["Design", "Prototyping", "Process"]
-    },
-    {
-      "id": 32,
-      "image": "src/assets/img/post/image-32.png",
-      "title": "The Evolution of Material Design",
-      "author": "Sasha Diaz",
-      "date": "1 Jan 2023",
-      "description": "Material design has evolved over the years, shaping the visual language of digital interfaces.",
-      "categories": ["Design", "Material Design", "Evolution"]
-    },
-    {
-      "id": 33,
-      "image": "src/assets/img/post/image-33.png",
-      "title": "Designing for Augmented Reality Experiences",
-      "author": "Kieran Patel",
-      "date": "1 Jan 2023",
-      "description": "Augmented reality presents new opportunities for immersive and interactive design experiences.",
-      "categories": ["Design", "AR", "Augmented Reality"]
-    },
-    {
-      "id": 34,
-      "image": "src/assets/img/post/image-34.png",
-      "title": "The Psychology of Persuasive Design",
-      "author": "Arianna Larson",
-      "date": "1 Jan 2023",
-      "description": "Understanding psychological principles can help designers create persuasive and influential designs.",
-      "categories": ["Design", "Psychology", "Persuasion"]
-    },
-    {
-      "id": 35,
-      "image": "src/assets/img/post/image-35.png",
-      "title": "Designing for Wearable Technology",
-      "author": "Rylan Carter",
-      "date": "1 Jan 2023",
-      "description": "Wearable technology presents unique design challenges and opportunities for seamless integration into daily life.",
-      "categories": ["Design", "Wearable Tech", "Technology"]
-    },
-    {
-      "id": 36,
-      "image": "src/assets/img/post/image-36.png",
-      "title": "The Future of User Interface Design",
-      "author": "Jordan Myers",
-      "date": "1 Jan 2023",
-      "description": "Explore emerging trends and technologies shaping the future of user interface design.",
-      "categories": ["Design", "UI", "Future Trends"]
-    },
-    {
-      "id": 37,
-      "image": "src/assets/img/post/image-37.png",
-      "title": "The Art of Icon Design",
-      "author": "Nova Santiago",
-      "date": "1 Jan 2023",
-      "description": "Icons are essential visual elements in user interfaces, representing actions, objects, and concepts.",
-      "categories": ["Design", "Icons", "Visual Design"]
-    },
-    {
-      "id": 38,
-      "image": "src/assets/img/post/image-38.png",
-      "title": "Design Thinking for Innovation",
-      "author": "Micah Henderson",
-      "date": "1 Jan 2023",
-      "description": "Design thinking provides a human-centered approach to innovation, problem-solving, and product development.",
-      "categories": ["Design", "Design Thinking", "Innovation"]
-    },
-    {
-      "id": 39,
-      "image": "src/assets/img/post/image-39.png",
-      "title": "The Role of UI Animation in User Experience",
-      "author": "Ella Watts",
-      "date": "1 Jan 2023",
-      "description": "UI animations can enhance usability, provide feedback, and create delightful interactions in user experiences.",
-      "categories": ["Design", "UI", "Animation"]
-    }
-  ]
+  {
+    "id": 10,
+    "image": "src/assets/img/post/image-10.png",
+    "title": "The Art of Typography in Web Design",
+    "author": "Evan Montgomery",
+    "date": "1 Jan 2023",
+    "description": "Typography plays a crucial role in web design, influencing readability, accessibility, and overall aesthetics.",
+    "categories": ["Design", "Web", "Typography"]
+  },
+  {
+    "id": 11,
+    "image": "src/assets/img/post/image-11.png",
+    "title": "The Power of A/B Testing in UX Design",
+    "author": "Isabella Nguyen",
+    "date": "1 Jan 2023",
+    "description": "A/B testing allows UX designers to make data-driven decisions and optimize user experiences.",
+    "categories": ["Design", "UX", "Testing"]
+  },
+  {
+    "id": 12,
+    "image": "src/assets/img/post/image-12.png",
+    "title": "Mastering Color Theory in Graphic Design",
+    "author": "Tristan Patel",
+    "date": "1 Jan 2023",
+    "description": "Understanding color theory is essential for creating visually appealing and harmonious designs.",
+    "categories": ["Design", "Graphic Design", "Color Theory"]
+  },
+  {
+    "id": 13,
+    "image": "src/assets/img/post/image-13.png",
+    "title": "Responsive Design Best Practices",
+    "author": "Harper Dixon",
+    "date": "1 Jan 2023",
+    "description": "Learn how to create websites that adapt seamlessly to different devices and screen sizes.",
+    "categories": ["Design", "Web", "Responsive Design"]
+  },
+  {
+    "id": 14,
+    "image": "src/assets/img/post/image-14.png",
+    "title": "The Evolution of User-Centered Design",
+    "author": "Riley Carter",
+    "date": "1 Jan 2023",
+    "description": "Explore the history and principles behind user-centered design and its impact on modern products.",
+    "categories": ["Design", "UX", "User-Centered Design"]
+  },
+  {
+    "id": 15,
+    "image": "src/assets/img/post/image-15.png",
+    "title": "Harnessing the Psychology of Color in Marketing",
+    "author": "Avery Fisher",
+    "date": "1 Jan 2023",
+    "description": "Discover how different colors can evoke emotions and influence consumer behavior in marketing.",
+    "categories": ["Marketing", "Psychology", "Color"]
+  },
+  {
+    "id": 16,
+    "image": "src/assets/img/post/image-16.png",
+    "title": "Effective Time Management Techniques for Developers",
+    "author": "Hayden Ellis",
+    "date": "1 Jan 2023",
+    "description": "Time management skills are crucial for developers to maximize productivity and meet project deadlines.",
+    "categories": ["Development", "Productivity", "Time Management"]
+  },
+  {
+    "id": 17,
+    "image": "src/assets/img/post/image-17.png",
+    "title": "The Rise of No-Code Development Platforms",
+    "author": "Rowan Griffin",
+    "date": "1 Jan 2023",
+    "description": "No-code development platforms empower individuals and businesses to create software applications without writing code.",
+    "categories": ["Development", "No-Code", "Platforms"]
+  },
+  {
+    "id": 18,
+    "image": "src/assets/img/post/image-18.png",
+    "title": "Inclusive Design: Designing for Everyone",
+    "author": "Sawyer Holmes",
+    "date": "1 Jan 2023",
+    "description": "Learn how to create products and experiences that are accessible and inclusive for all users.",
+    "categories": ["Design", "Inclusive Design", "Accessibility"]
+  },
+  {
+    "id": 19,
+    "image": "src/assets/img/post/image-19.png",
+    "title": "The Importance of Information Architecture in UX",
+    "author": "Kai Jordan",
+    "date": "1 Jan 2023",
+    "description": "Information architecture lays the foundation for intuitive and user-friendly digital experiences.",
+    "categories": ["Design", "UX", "Information Architecture"]
+  },
+  {
+    "id": 20,
+    "image": "src/assets/img/post/image-20.png",
+    "title": "The Future of Artificial Intelligence in Design",
+    "author": "Quinn Sullivan",
+    "date": "1 Jan 2023",
+    "description": "Explore how AI is revolutionizing the design process and shaping the future of creative industries.",
+    "categories": ["Design", "AI", "Future Trends"]
+  },
+  {
+    "id": 21,
+    "image": "src/assets/img/post/image-21.png",
+    "title": "Effective Communication Strategies for Remote Teams",
+    "author": "Peyton Garcia",
+    "date": "1 Jan 2023",
+    "description": "Communication is key to successful collaboration in remote teams. Learn best practices for staying connected.",
+    "categories": ["Remote Work", "Communication", "Teamwork"]
+  },
+  {
+    "id": 22,
+    "image": "src/assets/img/post/image-22.png",
+    "title": "The Role of Emotion in User Experience Design",
+    "author": "Nova Ramirez",
+    "date": "1 Jan 2023",
+    "description": "Emotion plays a significant role in shaping user perceptions and behaviors in UX design.",
+    "categories": ["Design", "UX", "Emotion"]
+  },
+  {
+    "id": 23,
+    "image": "src/assets/img/post/image-23.png",
+    "title": "Building Scalable Infrastructure for Web Applications",
+    "author": "Elliot Watts",
+    "date": "1 Jan 2023",
+    "description": "Scalable infrastructure is essential for supporting the growth and performance of web applications.",
+    "categories": ["Development", "Infrastructure", "Web Applications"]
+  },
+  {
+    "id": 24,
+    "image": "src/assets/img/post/image-24.png",
+    "title": "The Art of Storytelling in User Experience",
+    "author": "Aria Patel",
+    "date": "1 Jan 2023",
+    "description": "Storytelling can enhance user engagement and create memorable experiences in UX design.",
+    "categories": ["Design", "UX", "Storytelling"]
+  },
+  {
+    "id": 25,
+    "image": "src/assets/img/post/image-25.png",
+    "title": "The Intersection of Design and Data Science",
+    "author": "Micah West",
+    "date": "1 Jan 2023",
+    "description": "Explore how design principles and data science techniques converge to drive innovation and insights.",
+    "categories": ["Design", "Data Science", "Innovation"]
+  },
+  {
+    "id": 26,
+    "image": "src/assets/img/post/image-26.png",
+    "title": "The Impact of Microinteractions on User Engagement",
+    "author": "Elena Martinez",
+    "date": "1 Jan 2023",
+    "description": "Microinteractions can delight users and enhance the overall user experience by providing feedback and guidance.",
+    "categories": ["Design", "UX", "Microinteractions"]
+  },
+  {
+    "id": 27,
+    "image": "src/assets/img/post/image-27.png",
+    "title": "The Role of Gamification in Product Design",
+    "author": "Carter Price",
+    "date": "1 Jan 2023",
+    "description": "Gamification can motivate users, increase engagement, and drive desired behaviors in product design.",
+    "categories": ["Design", "Gamification", "Product Design"]
+  },
+  {
+    "id": 28,
+    "image": "src/assets/img/post/image-28.png",
+    "title": "Designing for Voice User Interfaces",
+    "author": "Skyler Griffin",
+    "date": "1 Jan 2023",
+    "description": "Voice user interfaces present unique design challenges and opportunities for creating intuitive experiences.",
+    "categories": ["Design", "Voice UI", "User Interfaces"]
+  },
+  {
+    "id": 29,
+    "image": "src/assets/img/post/image-29.png",
+    "title": "The Ethics of AI in Design",
+    "author": "Harper Wells",
+    "date": "1 Jan 2023",
+    "description": "Designers must consider ethical implications when integrating AI technologies into products and services.",
+    "categories": ["Design", "AI", "Ethics"]
+  },
+  {
+    "id": 30,
+    "image": "src/assets/img/post/image-30.png",
+    "title": "Designing Accessible Mobile Experiences",
+    "author": "Remy Thompson",
+    "date": "1 Jan 2023",
+    "description": "Creating mobile experiences that are accessible to users with disabilities is essential for inclusive design.",
+    "categories": ["Design", "Accessibility", "Mobile"]
+  },
+  {
+    "id": 31,
+    "image": "src/assets/img/post/image-31.png",
+    "title": "The Role of Prototyping in the Design Process",
+    "author": "Logan Palmer",
+    "date": "1 Jan 2023",
+    "description": "Prototyping allows designers to test ideas, gather feedback, and iterate rapidly during the design process.",
+    "categories": ["Design", "Prototyping", "Process"]
+  },
+  {
+    "id": 32,
+    "image": "src/assets/img/post/image-32.png",
+    "title": "The Evolution of Material Design",
+    "author": "Sasha Diaz",
+    "date": "1 Jan 2023",
+    "description": "Material design has evolved over the years, shaping the visual language of digital interfaces.",
+    "categories": ["Design", "Material Design", "Evolution"]
+  },
+  {
+    "id": 33,
+    "image": "src/assets/img/post/image-33.png",
+    "title": "Designing for Augmented Reality Experiences",
+    "author": "Kieran Patel",
+    "date": "1 Jan 2023",
+    "description": "Augmented reality presents new opportunities for immersive and interactive design experiences.",
+    "categories": ["Design", "AR", "Augmented Reality"]
+  },
+  {
+    "id": 34,
+    "image": "src/assets/img/post/image-34.png",
+    "title": "The Psychology of Persuasive Design",
+    "author": "Arianna Larson",
+    "date": "1 Jan 2023",
+    "description": "Understanding psychological principles can help designers create persuasive and influential designs.",
+    "categories": ["Design", "Psychology", "Persuasion"]
+  },
+  {
+    "id": 35,
+    "image": "src/assets/img/post/image-35.png",
+    "title": "Designing for Wearable Technology",
+    "author": "Rylan Carter",
+    "date": "1 Jan 2023",
+    "description": "Wearable technology presents unique design challenges and opportunities for seamless integration into daily life.",
+    "categories": ["Design", "Wearable Tech", "Technology"]
+  },
+  {
+    "id": 36,
+    "image": "src/assets/img/post/image-36.png",
+    "title": "The Future of User Interface Design",
+    "author": "Jordan Myers",
+    "date": "1 Jan 2023",
+    "description": "Explore emerging trends and technologies shaping the future of user interface design.",
+    "categories": ["Design", "UI", "Future Trends"]
+  },
+  {
+    "id": 37,
+    "image": "src/assets/img/post/image-37.png",
+    "title": "The Art of Icon Design",
+    "author": "Nova Santiago",
+    "date": "1 Jan 2023",
+    "description": "Icons are essential visual elements in user interfaces, representing actions, objects, and concepts.",
+    "categories": ["Design", "Icons", "Visual Design"]
+  },
+  {
+    "id": 38,
+    "image": "src/assets/img/post/image-38.png",
+    "title": "Design Thinking for Innovation",
+    "author": "Micah Henderson",
+    "date": "1 Jan 2023",
+    "description": "Design thinking provides a human-centered approach to innovation, problem-solving, and product development.",
+    "categories": ["Design", "Design Thinking", "Innovation"]
+  },
+  {
+    "id": 39,
+    "image": "src/assets/img/post/image-39.png",
+    "title": "The Role of UI Animation in User Experience",
+    "author": "Ella Watts",
+    "date": "1 Jan 2023",
+    "description": "UI animations can enhance usability, provide feedback, and create delightful interactions in user experiences.",
+    "categories": ["Design", "UI", "Animation"]
+  }
 ]
