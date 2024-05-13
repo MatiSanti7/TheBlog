@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./components/Header";
+import Nav from "./components/Nav";
 import Blog from "./components/Blog";
 import "./index.css";
 
@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className={`${darkMode ? "dark-mode" : "light-mode"} px-44`}>
-      <Header toggleDarkMode={toggleDarkMode} />
+      <Nav toggleDarkMode={toggleDarkMode} />
       <Blog></Blog>
     </div>
   );
