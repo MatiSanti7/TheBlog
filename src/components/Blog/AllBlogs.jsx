@@ -30,7 +30,7 @@ const AllBlogs = () => {
   return (
     <section>
       <h2 className="mb-8 text-2xl font-semibold">All blog posts</h2>
-      <div className="grid grid-cols-3 grid-rows-2 gap-8">
+      <div className="grid grid-cols-3 grid-rows-2 gap-10">
         {currentPosts.map((post) => (
           <PostBlog post={post} key={post.id}></PostBlog>
         ))}
@@ -39,7 +39,9 @@ const AllBlogs = () => {
         <button
           onClick={prevPage}
           disabled={currentPage === 1}
-          className="py-1 text-2xl px-7 bg-slate-200 rounded-3xl"
+          className={`py-1 text-2xl px-7  rounded-3xl ${
+            currentPage === 1 ? "cursor-not-allowed opacity-25" : "bg-slate-200"
+          }`}
         >
           Prev
         </button>
@@ -50,9 +52,9 @@ const AllBlogs = () => {
                 onClick={() => setPage(index + 1)}
                 className={`text-2xl ${
                   currentPage === index + 1
-                    ? "font-bold bg-gray-400 text-white"
-                    : "font-normal bg-gray-200"
-                } rounded-full px-3 py-1`}
+                    ? "font-bold bg-gray-400 text-white rounded-xl"
+                    : "font-normal "
+                }  px-3 py-1`}
               >
                 {index + 1}
               </button>
@@ -62,7 +64,11 @@ const AllBlogs = () => {
         <button
           onClick={nextPage}
           disabled={currentPage === totalPages}
-          className="py-1 text-2xl px-7 bg-slate-200 rounded-3xl"
+          className={`py-1 text-2xl px-7  rounded-3xl ${
+            currentPage === totalPages
+              ? "cursor-not-allowed opacity-25"
+              : "bg-slate-200"
+          }`}
         >
           Next
         </button>

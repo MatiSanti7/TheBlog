@@ -5,7 +5,11 @@ const PostBlog = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
   return (
     <div className="post-blog">
-      <img src={image} alt="" className="mb-5" />
+      <img
+        src={image}
+        alt=""
+        className="mb-5 h-[310px] object-cover w-[490px]"
+      />
       <small className="text-base font-semibold text-[#6941C6]">
         {author} • {date}
       </small>
