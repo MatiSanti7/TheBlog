@@ -1,19 +1,21 @@
-h1 {
-  font-size: 300px !important;
-  line-height: 350px;
-}
-
-hr {
-  height: 2px !important;
-  background-color: #2f2f2f;
-}
-
 .active {
   border-bottom: 2px solid #2f2f2f;
 }
 
 .nav-item:hover {
   border-bottom: 2px solid #2f2f2f;
+}
+
+.nav-princ {
+  background-color: white;
+}
+
+.dark-mode .nav-princ {
+  background-color: #2f2f2f;
+}
+
+.dark-mode .nav {
+  background-color: #2f2f2f;
 }
 
 .dark-mode .nav-item:hover {

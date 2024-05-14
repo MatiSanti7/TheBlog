@@ -1,35 +1,32 @@
 import PropTypes from "prop-types";
-import iconWrap from "../../assets/img/Icon-wrap.svg";
 
 const PostBlog = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
   return (
-    <div className="post-blog">
-      <img
-        src={image}
-        alt=""
-        className="mb-5 h-[310px] object-cover w-[490px]"
-      />
-      <small className="text-base font-semibold text-[#6941C6]">
-        {author} • {date}
-      </small>
-      <a href="#" className="flex justify-between">
-        <h3 className="py-2 text-3xl font-semibold">{title}</h3>
-        <img src={iconWrap} alt="" className="text-[#2f2f2f] w-10 icon-wrap" />
-      </a>
-      <p className="text-[22px] text-[#667085] font-normal mb-6">
-        {description}
-      </p>
-      <ul className="flex gap-2">
-        {categories.map((cat, index) => {
-          const numRandom = Math.floor(Math.random() * 7) + 1;
-          return (
-            <li className={`text-base cat color-${numRandom}`} key={index}>
-              {cat}
-            </li>
-          );
-        })}
-      </ul>
+    <div className="flex flex-col gap-5 h-min">
+      <img src={image} alt="" className="object-cover w-full xl:h-1/2 h-1/3" />
+      <div className="">
+        <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
+          {author} • {date}
+        </small>
+        <a href="#" className="flex items-start justify-between">
+          <h3 className="w-11/12 py-2 text-3xl font-semibold">{title}</h3>
+          <i className="pt-2 text-3xl fa-solid fa-up-right-from-square"></i>
+        </a>
+        <p className="text-[22px] text-[#667085] font-normal mb-6">
+          {description}
+        </p>
+        <ul className="flex flex-wrap gap-2">
+          {categories.map((cat, index) => {
+            const numRandom = Math.floor(Math.random() * 7) + 1;
+            return (
+              <li className={`text-base cat color-${numRandom}`} key={index}>
+                {cat}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };

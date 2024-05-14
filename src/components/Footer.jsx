@@ -2,7 +2,7 @@ const Footer = () => {
   const yearCurrent = new Date().getFullYear();
   return (
     <footer>
-      <ul className="flex gap-6 py-8 text-xl">
+      <ul className="flex gap-6 py-8 2xl:text-xl">
         <li>
           <span>© {yearCurrent}</span>
         </li>

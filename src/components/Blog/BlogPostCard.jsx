@@ -1,27 +1,26 @@
 import PropTypes from "prop-types";
-import iconWrap from "../../assets/img/Icon-wrap.svg";
 
 const BlogPostCard = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
   return (
-    <section className="grid grid-cols-2 gap-8">
-      <img src={image} alt={title} />
-      <div>
-        <small className="text-base font-semibold text-[#6941C6]">
+    <div className="grid-cols-2 gap-8 2xl:grid">
+      <img
+        src={image}
+        alt={title}
+        className="object-cover w-full md:h-auto h-96"
+      />
+      <div className="mt-5">
+        <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
           {author} • {date}
         </small>
         <a href="#" className="flex justify-between">
           <h3 className="py-2 text-3xl font-semibold">{title}</h3>
-          <img
-            src={iconWrap}
-            alt=""
-            className="text-[#2f2f2f] w-10 icon-wrap"
-          />
+          <i className="pt-2 text-3xl fa-solid fa-up-right-from-square"></i>
         </a>
         <p className="text-[22px] text-[#667085] font-normal mb-6">
           {description}
         </p>
-        <ul className="flex gap-4">
+        <ul className="flex flex-wrap gap-4">
           {categories.map((cat, index) => {
             const numRandom = Math.floor(Math.random() * 7) + 1;
             return (
@@ -32,7 +31,7 @@ const BlogPostCard = ({ post }) => {
           })}
         </ul>
       </div>
-    </section>
+    </div>
   );
 };
 

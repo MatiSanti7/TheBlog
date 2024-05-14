@@ -11,7 +11,11 @@ const App = () => {
   };
 
   return (
-    <div className={`${darkMode ? "dark-mode" : "light-mode"} px-44`}>
+    <div
+      className={`${
+        darkMode ? "dark-mode" : "light-mode"
+      } 2xl:px-44 md:px-20 px-10 pt-28`}
+    >
       <Nav toggleDarkMode={toggleDarkMode} />
       <Blog></Blog>
       <Footer></Footer>

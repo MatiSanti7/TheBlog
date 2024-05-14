@@ -6,9 +6,9 @@ import postsData from "../../../posts.json";
 
 const RecentBlog = () => {
   return (
-    <section className="pb-16">
-      <h2 className="mb-8 text-2xl font-semibold">Recent blog post</h2>
-      <div className="grid grid-cols-2 gap-8 mb-16">
+    <section className="pb-12">
+      <h2 className="pb-8 text-2xl font-semibold">Recent blog post</h2>
+      <div className="gap-8 mb-16 2xl:grid 2xl:grid-cols-2">
         <PrincipalPost post={postsData[0]}></PrincipalPost>
         <div className="flex flex-col gap-8 column-post">
           <Post post={postsData[1]}></Post>

@@ -4,17 +4,17 @@ const Post = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
 
   return (
-    <div className="grid grid-cols-2 gap-5">
-      <img src={image} alt="" />
-      <div>
-        <small className="text-sm font-semibold text-[#6941C6]">
+    <div className="grid md:grid-cols-2 md:gap-5">
+      <img src={image} alt="" className="w-full" />
+      <div className="mt-4 md:mt-0">
+        <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
           {author} • {date}
         </small>
         <a href="">
           <h3 className="py-2 text-2xl font-semibold">{title}</h3>
         </a>
         <p className="text-xl text-[#667085] font-normal mb-6">{description}</p>
-        <ul className="flex gap-4">
+        <ul className="flex flex-wrap gap-4">
           {categories.map((cat, index) => {
             const numRandom = Math.floor(Math.random() * 7) + 1;
             return (
