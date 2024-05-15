@@ -28,3 +28,7 @@ body {
 .dark-mode .active {
   border-color: white;
 }
+
+.dark-mode p {
+  color: #c0c5d0;
+}
