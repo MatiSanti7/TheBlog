@@ -1,0 +1,32 @@
+[
+  {
+    "title": "User Experience Design Dashboard Hotel Management",
+    "image": "src/assets/img/projects/project-1.png",
+    "description": "In the context of user experience (UX) design, a hotel management dashboard should be designed with the needs and goals of the hotel staff in mind. This means creating a clear and intuitive interface that allows staff to easily access and use the various tools and features of the dashboard.",
+    "categories": ["Design", "Research", "Presentation"]
+  },
+  {
+    "title": "Bring of User Experience Design to Policy Making, How to Impact Society",
+    "image": "src/assets/img/projects/project-2.png",
+    "description": "User experience (UX) design is a discipline that focuses on creating products and services that are easy to use, efficient, and enjoyable for users. In the context of policy making, UX design can be used to create policies that are effec",
+    "categories": ["Research", "Presentation"]
+  },
+  {
+    "title": "UX review presentatiBringing Design Process to Teams, How to Solve User Problems with Data & Inclusive Collaboration Designons",
+    "image": "src/assets/img/projects/project-3.png",
+    "description": "There are many different design processes that can be followed when creating a hotel management dashboard. Here are some tips for bringing a design process to teams and using data and inclusive collaboration to solve user problems",
+    "categories": ["Design", "Research", "Presentation", "Collaboration"]
+  },
+  {
+    "title": "Icon Package of Slin Icon",
+    "image": "src/assets/img/projects/project-4.png",
+    "description": "An icon package is a collection of icons that can be used in various design projects, such as website design, app development, and graphic design.",
+    "categories": ["Design", "Branding", "Identity"]
+  },
+  {
+    "title": "UX review presentations",
+    "image": "src/assets/img/projects/project-5.png",
+    "description": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    "categories": ["Design", "Research", "Presentation"]
+  }
+]
