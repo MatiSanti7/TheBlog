@@ -32,22 +32,22 @@ const Nav = ({ toggleDarkMode }) => {
   return (
     <header>
       <nav className="fixed top-0 left-0 flex items-center justify-between w-full px-10 pt-7 pb-7 2xl:px-44 md:px-20 nav-princ">
-        <strong className="text-4xl md:text-xl 2xl:text-4xl">
+        <strong className="text-2xl md:text-xl 2xl:text-4xl">
           Matias Santillán
         </strong>
         <div>
-          <ul className="hidden text-xl 2xl:gap-10 md:gap-2 md:flex">
+          <ul className="hidden gap-1 text-xl lg:gap-10 md:flex">
             <li className="px-2 pb-1 nav-item active">
-              <a href="blog.html">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
             <li className="px-2 pb-1 nav-item">
-              <a href="projects.html">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li className="px-2 pb-1 nav-item">
-              <a href="about.html">About</a>
+              <a href="/about">About</a>
             </li>
             <li className="px-2 pb-1 nav-item">
-              <a href="newsletter.html">Newsletter</a>
+              <a href="/newsletter">Newsletter</a>
             </li>
             <li>
               <label className="switch">
@@ -71,16 +71,16 @@ const Nav = ({ toggleDarkMode }) => {
         <strong className="mb-20 text-3xl md:text-xl">Matias Santillán</strong>
         <ul className="flex flex-col gap-6 text-3xl text-center">
           <li className="h-11 nav-item active">
-            <a href="blog.html">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li className=" h-11 nav-item">
-            <a href="projects.html">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li className=" h-11 nav-item">
-            <a href="about.html">About</a>
+            <a href="/about">About</a>
           </li>
           <li className=" h-11 nav-item">
-            <a href="newsletter.html">Newsletter</a>
+            <a href="/newsletter">Newsletter</a>
           </li>
           <li>
             <label className="switch">
@@ -91,7 +91,7 @@ const Nav = ({ toggleDarkMode }) => {
         </ul>
         <a href="/" onClick={(e) => e.preventDefault()}>
           <i
-            className="pb-20 text-5xl pt-80 fa-solid fa-xmark"
+            className="pt-40 pb-20 text-5xl fa-solid fa-xmark"
             onClick={handleMenuToggle}
           ></i>
         </a>
