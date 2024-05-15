@@ -1,15 +1,14 @@
 import PropTypes from "prop-types";
+import dataProjects from "../../../allProjects.json";
 
-const PostBlog = ({ post }) => {
-  const { image, title, author, date, description, categories } = post;
+const Project = ({ index }) => {
+  const { title, image, description, categories } = dataProjects[index];
+
   return (
-    <div className="flex flex-col gap-5 h-min">
+    <div className="h-min">
       <img src={image} alt="" className="object-cover w-full xl:h-1/2 h-1/3" />
       <div>
-        <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
-          {author} • {date}
-        </small>
-        <a href="#" className="flex items-start justify-between">
+        <a href="#" className="flex items-start justify-between mt-4">
           <h3 className="w-11/12 py-2 text-3xl font-semibold">{title}</h3>
           <i className="pt-2 text-3xl fa-solid fa-up-right-from-square"></i>
         </a>
@@ -31,15 +30,8 @@ const PostBlog = ({ post }) => {
   );
 };
 
-PostBlog.propTypes = {
-  post: PropTypes.shape({
-    image: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    categories: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
+Project.propTypes = {
+  index: PropTypes.number.isRequired,
 };
 
-export default PostBlog;
+export default Project;
