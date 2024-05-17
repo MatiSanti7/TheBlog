@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
+import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import "./index.css";
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/" element={<Blog />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/newsletter" element={<Newsletter />} />
         </Routes>
         <Footer></Footer>
       </div>
