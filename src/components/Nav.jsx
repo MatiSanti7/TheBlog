@@ -12,6 +12,11 @@ const Nav = ({ toggleDarkMode }) => {
   useEffect(() => {
     const bars = document.querySelector(".fa-bars");
     const nav = document.querySelector(".nav");
+    const body = document.querySelector("body");
+
+    if (isMenuOpen) {
+      body.classList.add("overflow-hidden");
+    }
 
     const handleClick = () => {
       nav.classList.toggle("top-0");
@@ -26,8 +31,9 @@ const Nav = ({ toggleDarkMode }) => {
       if (bars) {
         bars.removeEventListener("click", handleClick);
       }
+      body.classList.remove("overflow-hidden");
     };
-  }, []);
+  }, [isMenuOpen]);
 
   return (
     <header>

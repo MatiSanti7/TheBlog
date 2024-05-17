@@ -1,3 +1,7 @@
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .active {
   border-bottom: 2px solid #2f2f2f;
 }
