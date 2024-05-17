@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
 import Newsletter from "./components/Newsletter";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import "./index.css";
 
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer></Footer>
       </div>

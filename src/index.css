@@ -37,3 +37,7 @@ body {
 .dark-mode p {
   color: #c0c5d0;
 }
+
+.dark-mode section ul li {
+  color: #c0c5d0;
+}
