@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --dark: #2f2f2f;
+  --white: white;
+}
+
 html {
   font-family: "Inter", sans-serif;
+  transition: backgroundColor 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 body {
@@ -11,18 +17,17 @@ body {
   padding: 0;
   color: #2f2f2f;
   scroll-behavior: smooth;
+  transition: backgroundColor 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .dark-mode {
-  background-color: #2f2f2f;
-  color: white;
-  transition: all 0.3s ease-in-out;
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .light-mode {
   background-color: white;
   color: #2f2f2f;
-  transition: all 0.3s ease-in-out;
 }
 
 .dark-mode .active {
