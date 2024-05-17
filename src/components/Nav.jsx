@@ -4,9 +4,15 @@ import "./styles/header.css";
 
 const Nav = ({ toggleDarkMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activePath, setActivePath] = useState(window.location.pathname);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleNavLinkClick = (path) => {
+    setActivePath(path);
+    setIsMenuOpen(false);
   };
 
   useEffect(() => {
@@ -35,6 +41,8 @@ const Nav = ({ toggleDarkMode }) => {
     };
   }, [isMenuOpen]);
 
+  const isActive = (path) => (activePath === path ? "active" : "");
+
   return (
     <header>
       <nav className="fixed top-0 left-0 flex items-center justify-between w-full px-10 pt-7 pb-7 2xl:px-44 md:px-20 nav-princ">
@@ -42,18 +50,32 @@ const Nav = ({ toggleDarkMode }) => {
           Matias Santillán
         </strong>
         <div>
-          <ul className="hidden gap-1 text-xl lg:gap-10 md:flex">
-            <li className="px-2 pb-1 nav-item active">
-              <a href="/blog">Blog</a>
+          <ul className="hidden gap-3 text-xl lg:gap-10 md:flex">
+            <li className={`px-2 pb-1 nav-item ${isActive("/blog")}`}>
+              <a href="/blog" onClick={() => handleNavLinkClick("/blog")}>
+                Blog
+              </a>
             </li>
-            <li className="px-2 pb-1 nav-item">
-              <a href="/projects">Projects</a>
+            <li className={`px-2 pb-1 nav-item ${isActive("/projects")}`}>
+              <a
+                href="/projects"
+                onClick={() => handleNavLinkClick("/projects")}
+              >
+                Projects
+              </a>
             </li>
-            <li className="px-2 pb-1 nav-item">
-              <a href="/about">About</a>
+            <li className={`px-2 pb-1 nav-item ${isActive("/about")}`}>
+              <a href="/about" onClick={() => handleNavLinkClick("/about")}>
+                About
+              </a>
             </li>
-            <li className="px-2 pb-1 nav-item">
-              <a href="/newsletter">Newsletter</a>
+            <li className={`px-2 pb-1 nav-item ${isActive("/newsletter")}`}>
+              <a
+                href="/newsletter"
+                onClick={() => handleNavLinkClick("/newsletter")}
+              >
+                Newsletter
+              </a>
             </li>
             <li>
               <label className="switch">
@@ -74,33 +96,51 @@ const Nav = ({ toggleDarkMode }) => {
           isMenuOpen ? "top-0" : "top-[-100%]"
         } left-0 flex flex-col items-center justify-end w-full h-screen bg-white nav`}
       >
-        <strong className="mb-20 text-3xl md:text-xl">Matias Santillán</strong>
-        <ul className="flex flex-col gap-6 text-3xl text-center">
-          <li className="h-11 nav-item active">
-            <a href="/blog">Blog</a>
-          </li>
-          <li className=" h-11 nav-item">
-            <a href="/projects">Projects</a>
-          </li>
-          <li className=" h-11 nav-item">
-            <a href="/about">About</a>
-          </li>
-          <li className=" h-11 nav-item">
-            <a href="/newsletter">Newsletter</a>
-          </li>
-          <li>
-            <label className="switch">
-              <input type="checkbox" onChange={toggleDarkMode} />
-              <span className="slider round"></span>
-            </label>
-          </li>
-        </ul>
-        <a href="/" onClick={(e) => e.preventDefault()}>
+        <div className="flex flex-col items-center justify-center gap-20 h-5/6">
+          <strong className="mb-20 text-3xl md:text-2xl ">
+            Matias Santillán
+          </strong>
+          <ul className="flex flex-col gap-10 text-2xl text-center">
+            <li className={`h-9 nav-item ${isActive("/blog")}`}>
+              <a href="/blog" onClick={() => handleNavLinkClick("/blog")}>
+                Blog
+              </a>
+            </li>
+            <li className={`h-9 nav-item ${isActive("/projects")}`}>
+              <a
+                href="/projects"
+                onClick={() => handleNavLinkClick("/projects")}
+              >
+                Projects
+              </a>
+            </li>
+            <li className={`h-9 nav-item ${isActive("/about")}`}>
+              <a href="/about" onClick={() => handleNavLinkClick("/about")}>
+                About
+              </a>
+            </li>
+            <li className={`h-9 nav-item ${isActive("/newsletter")}`}>
+              <a
+                href="/newsletter"
+                onClick={() => handleNavLinkClick("/newsletter")}
+              >
+                Newsletter
+              </a>
+            </li>
+            <li className="flex items-center justify-center scale-150 h-11">
+              <label className="scale-125 switch">
+                <input type="checkbox" onChange={toggleDarkMode} />
+                <span className="slider round"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div className="flex items-center h-1/6">
           <i
-            className="pt-40 pb-20 text-5xl fa-solid fa-xmark"
+            className="text-5xl text-center cursor-pointer fa-solid fa-xmark"
             onClick={handleMenuToggle}
           ></i>
-        </a>
+        </div>
       </section>
     </header>
   );
