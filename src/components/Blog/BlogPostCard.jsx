@@ -7,7 +7,7 @@ const BlogPostCard = ({ post }) => {
       <img
         src={image}
         alt={title}
-        className="object-cover w-full md:h-auto h-96"
+        className="object-cover w-full h-56 md:h-auto"
       />
       <div className="mt-5">
         <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">

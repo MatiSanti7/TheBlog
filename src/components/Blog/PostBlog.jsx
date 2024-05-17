@@ -4,7 +4,11 @@ const PostBlog = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
   return (
     <div className="flex flex-col gap-5 h-min">
-      <img src={image} alt="" className="object-cover w-full xl:h-1/2 h-1/3" />
+      <img
+        src={image}
+        alt=""
+        className="object-cover md:w-full md:h-[290px] h-1/3"
+      />
       <div>
         <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
           {author} • {date}

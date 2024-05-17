@@ -8,7 +8,7 @@ const PrincipalPost = ({ post }) => {
       <img
         src={image}
         alt="img-principal"
-        className="object-cover w-full mb-7 md:h-auto h-96"
+        className="object-cover w-full h-56 mb-7 md:h-auto"
       />
       <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
         {author} • {date}
