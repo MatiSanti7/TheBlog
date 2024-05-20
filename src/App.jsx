@@ -6,9 +6,13 @@ import Projects from "./components/Projects";
 import Newsletter from "./components/Newsletter";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import DetailBlog from "./components/DetailBlog/DetailBlog";
 import "./index.css";
+import post from "../posts.json";
 
 const App = () => {
+  const detailPost = post[3];
+
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -26,8 +30,12 @@ const App = () => {
           <Route path="/" element={<Blog />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/newsletter" element={<Newsletter />} />
           <Route path="/about" element={<About />} />
+          <Route path="/newsletter" element={<Newsletter />} />
+          <Route
+            path="/detail-blog"
+            element={<DetailBlog post={detailPost} />}
+          ></Route>
         </Routes>
         <Footer></Footer>
       </div>

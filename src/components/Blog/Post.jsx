@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Post = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
@@ -10,9 +11,9 @@ const Post = ({ post }) => {
         <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
           {author} • {date}
         </small>
-        <a href="">
-          <h3 className="py-2 text-2xl font-semibold">{title}</h3>
-        </a>
+        <Link to={{ pathname: "/detail-blog", state: { post } }}>
+          <h3 className="py-2 text-3xl font-semibold">{title}</h3>
+        </Link>
         <p className="text-xl text-[#667085] font-normal mb-6">{description}</p>
         <ul className="flex flex-wrap gap-4">
           {categories.map((cat, index) => {

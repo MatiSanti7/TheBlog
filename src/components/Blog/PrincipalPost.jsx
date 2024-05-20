@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const PrincipalPost = ({ post }) => {
   const { image, title, author, date, description, categories } = post;
@@ -13,10 +14,13 @@ const PrincipalPost = ({ post }) => {
       <small className="2xl:text-base md:text-lg text-xl font-semibold text-[#6941C6]">
         {author} • {date}
       </small>
-      <a href="#" className="flex justify-between">
+      <Link
+        to={{ pathname: "/detail-blog", state: { post } }}
+        className="flex justify-between"
+      >
         <h3 className="py-2 text-3xl font-semibold">{title}</h3>
         <i className="pt-2 text-3xl fa-solid fa-up-right-from-square"></i>
-      </a>
+      </Link>
       <p className="text-[22px] text-[#667085] font-normal mb-6">
         {description}
       </p>
